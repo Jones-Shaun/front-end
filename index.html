@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Photo App</h2>
+        <main>
+            <h3>Cat Photos</h3>
+            <!-- TODO: Add link to photos -->
+            <p>
+                Click here to view more photos.
+                <a href="#" target="_blank">Cat photos</a>
+            </p>
+            <a href="#"><img src="https://fcc.im/fcc-relaxing-cat" alt="A cute orange cat lying on its back"></a>
+            <h3>Cat Lists</h3>
+            <p>Things Cats <em>Love:</em></p>
+            <ul>
+                <li>Cat nip</li>
+                <li>Laser pointers</li>
+                <li>Lasagna</li>
+            </ul>
+            <img src="lasagna.jpg" alt="Lasagna">
+            <P>Things Cats <strong>Hate:</strong></P>
+            <ol>
+                <li>Flea treatment</li>
+                <li>Thunder</li>
+                <li>Other cats</li>
+            </ol>
+            <img src="cats.jpg" alt="Cats">
+            <form action="/submit-cat-photo">
+                <label><input type="radio" name="indoor-outdoor"> indoor</label>
+                <label><input type="radio" name="indoor-outdoor"> outdoor</label>
+                <input type="text" placeholder="cat photo URL" required>
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+    </body>
+</html>
